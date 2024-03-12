@@ -67,49 +67,49 @@ console.log(aluno1.nome);
 let carro1 = {
     modelo: 'Cross Fox',
     marca: 'Vokswagen',
-    ano: '2011',
-    quilometragem: '100.000',
-    potenciaMotor: '1.6',
+    ano: 2011,
+    quilometragem: 100.000,
+    potenciaMotor: 1.6,
     cor: 'Branco',
-    preco: '37.000' 
+    preco: 37.000 
 }
 
 let carro2 = {
     modelo: 'Up',
     marca: 'Vokswagen',
-    ano: '2015',
-    quilometragem: '124.852',
-    potenciaMotor: '1.0',
+    ano: 2015,
+    quilometragem: 124.852,
+    potenciaMotor: 1.0,
     cor: 'Branco',
-    preco: '38.000' 
+    preco: 38.000
 }
 
 let carro3 = {
   modelo: 'Ka',
   marca: 'Ford',
-  ano: '2020',
-  quilometragem: '38.000',
-  potenciaMotor: '1.0',
+  ano: 2020,
+  quilometragem: 38.000,
+  potenciaMotor: 1.0,
   cor: 'Prata',
-  preco: '47.990'
+  preco: 47.990
 }
 
 let carro4 = {
     modelo: 'Duster',
     marca: 'Renault',
-    ano: '2016',
-    quilometragem: '1',
-    potenciaMotor: '2.0',
+    ano: 2016,
+    quilometragem: 1,
+    potenciaMotor: 2.0,
     cor: 'Prata',
-    preco: '58.900'
+    preco: 58.900
 }
 
 let carro5 = {
     modelo: 'Argo',
     marca: 'Fiat',
-    ano: '2022',
-    quilometragem: '65.000',
-    potenciaMotor: '1.0',
+    ano: 2022,
+    quilometragem: 65.000,
+    potenciaMotor: 1.0,
     cor: 'Branco',
-    preco: '63.000'
+    preco: 63.000
 }
