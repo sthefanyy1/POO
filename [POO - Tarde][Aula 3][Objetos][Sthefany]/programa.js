@@ -1,4 +1,5 @@
 let celular1 = {
+    foto: 'iphone15.jpg',
     marca: 'Apple',
     modelo: 'Iphone 15 Pro Max',
     armazenamento: '256GB',
@@ -11,6 +12,7 @@ let celular1 = {
 }
 
 let celular2 = {
+    foto: 'motoG14.webp',
     marca: 'Motorola',
     modelo: 'Moto G14',
     armazenamento: '128GB',
@@ -23,6 +25,7 @@ let celular2 = {
 }
 
 let celular3 = {
+    foto: 'redmi13.jpg',
     marca: 'Xaomi',
     modelo:'Redimi 13',
     armazenamento: '128GB',
@@ -35,6 +38,7 @@ let celular3 = {
 }
 
 let celular4 = {
+    foto: 'A14.webp',
     marca: 'Samsung',
     modelo:'A14',
     armazenamento: '128GB',
@@ -47,6 +51,7 @@ let celular4 = {
 }
 
 let celular5 = { 
+    foto: 'motoE32.webp',
     marca: 'Motorola',
     modelo:'E32',
     armazenamento: '64GB',
@@ -59,6 +64,7 @@ let celular5 = {
 }
 
 let celular6 = {
+    foto: 'S23.webp' ,
     marca: 'Samsung',
     modelo:'S23 ultra',
     armazenamento: '512GB',
@@ -71,6 +77,7 @@ let celular6 = {
 }
 
 let celular7 = {
+    foto: 'xiaomi14.jpg' ,
     marca: 'Xaomi',
     modelo:'14 Pro',
     armazenamento: '256GB',
@@ -93,4 +100,17 @@ listaDeCelular.push(celular7);
 
 for (let i = 0; i < listaDeCelular.length; i++) {
     console.log(`${listaDeCelular[i].marca} ${listaDeCelular[i].modelo} ${listaDeCelular[i].armazenamento} ${listaDeCelular[i].ram} ${listaDeCelular[i].cor} --> R$ ${listaDeCelular[i].preco}`);
+    document.write(`
+    <div class="card">
+        <img class="foto" src="img/${listaDeCelular[i].foto}">
+        <p class="nome"> ${listaDeCelular[i].marca} ${listaDeCelular[i].modelo} </p>
+        <p class="armazenamento"> ${listaDeCelular[i].armazenamento} </p>
+        <p class="ram"> ${listaDeCelular[i].ram} </p>
+        <p class="cor"> ${listaDeCelular[i].cor} </p>
+        <p class="processador"> ${listaDeCelular[i].processador} </p>
+        <p class="tela"> ${listaDeCelular[i].tipoTela} </p>
+        <p class="bateria"> ${listaDeCelular[i].bateria} </p>
+        <p class="preco">  R$ ${listaDeCelular[i].preco} </p>
+    </div>
+    `);
 }

@@ -1,0 +1,77 @@
+body{
+    background-color: #05051e;/*Cor de fundo*/
+}
+
+.card{
+    width: 400px;
+    margin-bottom: 16px;
+    padding: 20px;
+    background-color:midnightblue;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px; /*Arredonda as bordas*/
+    /* border: solid 1px #ff0000; */
+}
+
+.card:houver{ /*Qaundo passar o mouse sobre os elementos marcados com class card*/
+    box-shadow: 4px 4px 24px #78C0E0; /*Gera uma sombra*/
+}
+
+.foto{
+    width: 100%;
+    aspect-ratio: 1/1; /*Proporção da imagem, não é o px*/
+    object-fit: cover; /*Corta a imagem sem distorcer - não ficou tão boa*/
+}
+
+.nome{
+    font-size: 28px;
+    font-weight: 800;
+
+    color: #ffaa00;
+
+    /* border: solid 1px #0000ff; */
+}
+
+.armazenamento{
+    color: #449DD1;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.ram{
+    color: #449DD1;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.processador{
+    color: #449DD1;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.tela{
+    color: #449DD1;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.bateria{
+    color: #449DD1;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.cor{
+    color: #449DD1;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.preco{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    color:dodgerblue;
+    /* border: solid 1px #ffaa00; */
+}
