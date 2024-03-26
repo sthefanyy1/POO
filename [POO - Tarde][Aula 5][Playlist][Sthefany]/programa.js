@@ -51,7 +51,7 @@ let musica8 = {
     titulo: 'Aquarela',
     artistas: 'Toquinho',
     album: 'Aquarela',
-    poster: 'aquarela.jpeg'
+    poster: 'aquarela.jpg'
 }
 
 let musica9 = {
