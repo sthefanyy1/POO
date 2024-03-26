@@ -1,0 +1,40 @@
+body{
+    background-color: #1c1c23;
+}
+
+.card{
+    background-color: #1c1c23; /* Cor de fundo */
+
+    width: 360px;
+    padding: 28px;
+    margin-bottom: 16px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    border-radius: 20px; /* Arredonda as quinas */
+    /* border: solid 1px #ff0000; */
+}
+
+.foto{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.nomeMusica{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.nomeArtista{
+    color: #6f6c6c;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.albuns{
+    color: #6f6c6c;
+    font-size: 28px;
+    font-weight: 400;
+}
